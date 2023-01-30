@@ -1,7 +1,7 @@
 vcl 4.0;
 # set default backend if no server cluster specified
 backend default {
-    .host = "web";
+    .host = "web-ubs-knowledge";
     .port = "80";
     .first_byte_timeout = 600s; # How long to wait before we receive a first byte from our backend?
     .connect_timeout = 600s; # How long to wait for a backend connection?
